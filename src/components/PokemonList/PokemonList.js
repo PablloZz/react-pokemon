@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import PokemonInfo from "../PokemonInfo"
 import Pokemon from "./Pokemon/Pokemon"
-import Pagination from "../Pagination"
+import Pagination from "./Pagination/Pagination"
 import "./PokemonList.css"
 
 function PokemonList({ pokemons, nextPage, prevPage }) {
